@@ -1,0 +1,33 @@
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0px;
+}
+
+img {
+    width: 50px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0px;
+}
+
+.spacer {
+    height: 50px;
+}
+
+.container {
+    width: 400px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.row {
+    background-color: #55acee;
+}
+.white {
+    background-color: #ffffff;
+}

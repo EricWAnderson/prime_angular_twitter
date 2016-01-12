@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Twitter Handle Generator</title>
+
+    <link href="vendors/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+
+    <script src="vendors/angular.min.js"></script>
+    <script src="vendors/angular-animate.min.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+<body ng-controller="MainController">
+    <div class="spacer"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="assets/TwitterLogo_white.png" />
+                <h1>{{helloworld}}</h1>
+                <button class="btn btn-default" ng-click="getWords()">Generate new handles</button>
+            </div>
+
+            <div class="col-sm-6 white">
+                <ul>
+                    <li ng-repeat="handle in data.twitterArray"><a href=http://www.twitter.com/{{handle}}>@{{handle}}</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "prime_angular_twitter",
+  "version": "1.0.0",
+  "description": "AngularJS Assignment - Twitter Handle Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "keywords": [
+    "Angular",
+    "Twitter"
+  ],
+  "author": "Eric Anderson",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.3",
+    "path": "^0.12.7"
+  }
+}
